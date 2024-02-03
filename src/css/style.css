@@ -1,0 +1,54 @@
+body{
+    background-color: var(--background-color);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+h1{
+    font-size: 15px;
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--advice-card-color);
+    border-radius: 15px;
+    padding-top: 35px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advice{
+    padding: 25px;
+}
+
+.advice-update{
+    background-color: var(--advice-dice-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+@media (min-width:720px) {
+ .card{
+    width: 500px;
+ }   
+}
